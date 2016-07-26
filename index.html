@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>pura amor</title>
+</head>
+<body>
+<center>
+<img src="truelove.png"><br>
+<img src="truelove2.gif"><br>
+<p>
+<b>algorithms</b> are truly at the center of every interaction we make<br><br>
+if we can't trust the <b>algorithms</b> that were forged in the forgery of passion, then what can we trust?<br><br><br><br>
+
+<br><br>
+<h3 style="color: #00aa33;"><span style="font-size:150%">a poem</span> (made with downloaded fb messages and <a href="http://projects.haykranen.nl/markov/demo/"><span style="font-size: 125%">this thing</span></a>)</h3><br>
+<p><i>
+<span style="font-size: 150%">evebtual journal bathroow pillow so beautiful</span>
+<br><br>
+yeah you got too love it it with her. i'm into though romano's daddy
+<br>omg u gotta least your old you get a minutes again i hope he know water gurl js 
+<br><br><span style="font-size: 125%">I like in bed in a way my original design</span>
+<br><br>Whoah that Zayum :) <br>
+<br>"OH MAH GAWD WHY IS CODING SO GREAT"
+</i></p>
+</p>
+<br><br>
+<img src="cat1.png"><br>a throwback<br><br>
+<img src="cat2.png"><br><br>
+<img src="cat4.png"><br><br>
+<img src="cat5.png"><br><br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br>
+~<br><br>
+<img id="pixel_img" src="pixels.png" style="display:none;">
+<img id="sunset1" src="sunset1.jpg" style="display:none;">
+<img id="sunset2" src="sunset2.jpg" style="display:none;">
+<img id="sunset3" src="sunset3.jpg" style="display:none;">
+<canvas id="pixels"></canvas><br>pixel glasses are hard to draw<br><br>
+<script>
+var canvas = document.getElementById("pixels");
+canvas.width = 500;
+canvas.height = 375;
+var ctx = canvas.getContext("2d");
+ctx.imageSmoothingEnabled = false;
+ctx.mozImageSmoothingEnabled = false;
+ctx.imageSmoothingEnabled = false;
+var img = document.getElementById("pixel_img");
+var sunset_img = [];
+sunset_img[0] = document.getElementById("sunset1");
+sunset_img[1] = document.getElementById("sunset2");
+sunset_img[2] = document.getElementById("sunset3");
+
+var count = 0;
+var sunset_count = 0;
+var delay = 16;
+var sunset_delay = 32;
+var frame = 0;
+var sunset_frame = 0;
+function draw(){
+	count++;
+	if (count >= delay){
+		count = 0;
+		frame++;
+		if (frame >= 2) frame = 0;
+	}
+	
+	sunset_count++;
+	if (sunset_count >= sunset_delay){
+		sunset_count = 0;
+		sunset_frame++;
+		if (sunset_frame >= 3) sunset_frame = 0;
+	}
+	
+	ctx.drawImage(sunset_img[sunset_frame], 0, 0);
+	ctx.drawImage(img, 0, frame*32, 64, 32, 
+		canvas.width/2 - 128, canvas.height/2 - 16, 256, 128);
+}
+window.setInterval(draw, 30);
+</script>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="290" height="125">
+<param name="movie" value="flashvortex.swf" />
+<param name="quality" value="best" />
+<param name="menu" value="true" />
+<param name="allowScriptAccess" value="sameDomain" />
+<embed src="flashvortex.swf" quality="best" menu="true" width="290" height="125" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="sameDomain" />
+</object>
+</center>
+</body>
+</html>
