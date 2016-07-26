@@ -1,4 +1,4 @@
 # website 2
 ~!!~~
 
-http://pura-vida.github.io/amor
+http://pura-vida.github.io/samara
